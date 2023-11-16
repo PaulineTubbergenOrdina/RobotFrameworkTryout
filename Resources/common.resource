@@ -4,8 +4,8 @@ Library    SeleniumLibrary
 *** Variables ***
 ${BROWSER}                  Chrome
 ${ZOEKVELD}                 css=#searchInput[aria-label="Search Wikipedia"]
-${WELKOMSTTEKST}            css=span.mw-headline
-${WELKOMSTTEKST_TIKFOUT}    css=span.mh-headline
+${WELKOMSTTEKST}            css=h1 > span.mw-headline
+${WELKOMSTTEKST_TIKFOUT}    css=h1 > span.mh-headline
 ${TITELTEKST}               css=h1.firstHeading > span
 
 *** Keywords ***
