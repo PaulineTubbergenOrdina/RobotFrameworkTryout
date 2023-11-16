@@ -29,3 +29,8 @@ Je kunt je testen in de map "tests" nu draaien met het commando "robot tests/exa
 Robot files leesbaarder maken in PyCharm en makkelijker tests aftrappen:
 1. Ga naar Settings/Plugins... en installeer de plugin "Hyper RobotFramework Support".
 2. Je krijgt nu codevoorspellingen en kunt op een playknopje drukken per test.
+
+**Playwright als alternatief voor Selenium toegevoegd**
+
+In plaats van Selenium kun je ook van Playwright gebruik maken. Je importeert dan Browser in plaats van SeleniumLibrary.
+Installeer met "pip install robotframework-browser" en doe daarna "rfbrowser init".
