@@ -6,3 +6,4 @@ playwright-log.txt
 report.html
 rfbrowser
 browser/
+.DS_Store
